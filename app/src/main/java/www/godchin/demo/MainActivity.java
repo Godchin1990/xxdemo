@@ -22,5 +22,4 @@ public class MainActivity extends AppCompatActivity {
         intentFilter.addAction(WifiManager.SUPPLICANT_STATE_CHANGED_ACTION);
         registerReceiver(wifiReceiver, intentFilter);
     }
-
 }
