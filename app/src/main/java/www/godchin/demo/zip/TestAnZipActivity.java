@@ -16,8 +16,8 @@ public class TestAnZipActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.test_unzip_activity);
-        progressBar = (ProgressBar) findViewById(R.id.Progress);
+        setContentView(R.layout.activity_main);
+        progressBar = (ProgressBar) findViewById(R.id.progress_bar);
         String path = Environment.getExternalStorageDirectory().getAbsolutePath();
         //在sd卡的根目录放一个test.zip文件
         File out = new File(path, "test.zip");
