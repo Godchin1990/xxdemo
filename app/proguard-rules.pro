@@ -102,7 +102,7 @@
 -keep public class com.yiba.filemanager.R$*{
     public static final int *;
 }
--keep public class sharewe.activity.R$*{
+-keep public class www.godchin.demo.R$*{
     public static final int *;
 }
 -keepclassmembers enum * {
@@ -220,9 +220,122 @@
     int SUCCESS;
 }
 -keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {
+        com.google.android.gms.ads.identifier.AdvertisingIdClient$Info
         getAdvertisingIdInfo (android.content.Context);
 }
 -keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {
     java.lang.String getId ();
     boolean isLimitAdTrackingEnabled();
 }
+
+#google map
+-keep class * extends java.util.ListResourceBundle {
+    protected Object[][] getContents();
+}
+
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+    @com.google.android.gms.common.annotation.KeepName *;
+}
+
+-keepnames class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+
+# 保持 native 方法不被混淆
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# 保持自定义控件类不被混淆
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclasseswithmembers class * {
+    void onClick*(...);
+}
+-keepclasseswithmembers class * {
+    *** *Callback(...);
+}
+
+# keep setters in Views so that animations can still work.
+# see http://proguard.sourceforge.net/manual/examples.html#beans
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# 保持自定义控件类不被混淆
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+# 保持枚举 enum 类不被混淆
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# 保持 Parcelable 不被混淆
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# http client
+-keep class org.apache.http.** {*; }
+
+# 微信
+-keep class com.tencent.mm.sdk.openapi.WXMediaMessage {*;}
+-keep class com.tencent.mm.sdk.openapi.** implements com.tencent.mm.sdk.openapi.WXMediaMessage$IMediaObject {*;}
+
+# fastjson
+-keep class com.alibaba.fastjson.**{*;}
+# keep 所有的 javabean
+-keep class com.goldnet.mobile.entity.**{*;}
+
+-keep class org.apache.commons.lang.**{*;}
+
+# 新浪微博
+-keep class com.sina.**{*;}
+
+#######
+# 其它第三方库
+#######
+-dontwarn org.bouncycastle.**
+-keep class org.bouncycastle.**{*;}
+
+-dontwarn android-async-http-1.4.4.jar.**
+-keep class android-async-http-1.4.4.jar.**{*;}
+
+-dontwarn Decoder.**
+-keep class Decoder.**{*;}
+
+# volley
+-dontwarn com.android.volley.jar.**
+-keep class com.android.volley.**{*;}
+
+# actionbarsherlock
+-dontwarn com.actionbarsherlock.**
+-keep class com.actionbarsherlock.**{*;}
+
+# slidingmenu
+-dontwarn com.jeremyfeinstein.slidingmenu.lib.**
+-keep class com.jeremyfeinstein.slidingmenu.lib.**{*;}
+
+-dontwarn com.cairh.app.sjkh.**
+-keep class com.cairh.app.sjkh.**{*;}
+
+
