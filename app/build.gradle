@@ -43,10 +43,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile 'com.android.support:design:23.2.1'
     compile 'com.android.support:support-annotations:23.1.1'
-    compile 'com.android.support:recyclerview-v7:23.1.1' // RecyclerView
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    // RecyclerView
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'io.reactivex:rxjava:1.1.0'
-
     compile('com.facebook.fresco:fresco:0.9.0') {
         exclude group: 'com.parse.bolts', module: 'bolts-android'
     }
@@ -55,13 +55,21 @@ dependencies {
     compile 'com.google.android.gms:play-services-maps:8.4.0'
     compile 'com.google.android.gms:play-services-auth:8.4.0'
     //compile 'com.alibaba:fastjson:1.2.8'
-    compile 'com.jakewharton:butterknife:7.0.1' // 标注
-    compile 'com.google.dagger:dagger:2.0.2' // dagger2
-    compile 'com.google.dagger:dagger-compiler:2.0.2' // dagger2
-    compile 'com.squareup.retrofit:retrofit:2.0.0-beta2' // Retrofit网络处理
-    compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta2' // Retrofit的rx解析库
-    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2' // Retrofit的gson库
-    provided 'javax.annotation:jsr250-api:1.0' // Java标注
+    compile 'com.jakewharton:butterknife:7.0.1'
+    // 标注
+    compile 'com.google.dagger:dagger:2.0.2'
+    // dagger2
+    compile 'com.google.dagger:dagger-compiler:2.0.2'
+    // dagger2
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    // Retrofit网络处理
+    compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta2'
+    // Retrofit的rx解析库
+    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    // Retrofit的gson库
+    provided 'javax.annotation:jsr250-api:1.0'
+    // Java标注
+    compile project(':libzxing')
 }
 
 

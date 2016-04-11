@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" filepath="$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/native_ad_api/native_ad_api.iml" filepath="$PROJECT_DIR$/native_ad_api/native_ad_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxdemo.iml" filepath="$PROJECT_DIR$/xxdemo.iml" />
     </modules>
   </component>

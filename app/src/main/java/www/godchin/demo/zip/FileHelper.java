@@ -12,6 +12,7 @@ import java.io.InputStream;
 
 public class FileHelper {
     private static final String TAG = "FileHelper";
+
     /**
      * 得到SD卡的目录路径
      */
