@@ -3,9 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" filepath="$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Minisdk-release/Minisdk-release.iml" filepath="$PROJECT_DIR$/Minisdk-release/Minisdk-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ggmappi/ggmappi.iml" filepath="$PROJECT_DIR$/ggmappi/ggmappi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellomap/hellomap.iml" filepath="$PROJECT_DIR$/hellomap/hellomap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libmap/libmap.iml" filepath="$PROJECT_DIR$/libmap/libmap.iml" />
       <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maputil/maputil.iml" filepath="$PROJECT_DIR$/maputil/maputil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydemo/mydemo.iml" filepath="$PROJECT_DIR$/mydemo/mydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/native_ad_api/native_ad_api.iml" filepath="$PROJECT_DIR$/native_ad_api/native_ad_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qupai/qupai.iml" filepath="$PROJECT_DIR$/qupai/qupai.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxdemo.iml" filepath="$PROJECT_DIR$/xxdemo.iml" />
     </modules>
   </component>

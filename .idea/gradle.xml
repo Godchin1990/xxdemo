@@ -10,9 +10,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AndroidSystemUiTraining-master" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/Minisdk-release" />
+            <option value="$PROJECT_DIR$/ggmappi" />
+            <option value="$PROJECT_DIR$/hellomap" />
+            <option value="$PROJECT_DIR$/libmap" />
             <option value="$PROJECT_DIR$/libzxing" />
+            <option value="$PROJECT_DIR$/maputil" />
+            <option value="$PROJECT_DIR$/mydemo" />
             <option value="$PROJECT_DIR$/native_ad_api" />
+            <option value="$PROJECT_DIR$/qupai" />
           </set>
         </option>
       </GradleProjectSettings>

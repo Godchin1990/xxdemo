@@ -12,7 +12,7 @@
     in the debug/.../google_maps_api.xml instead if you just want to run this app.
     (This file is used for the release target that uses the release key store.)
     -->
-    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
-        YOUR_KEY_HERE
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyCpe3qx8-16x11xoWvRZS7Sga8erChHmDo
     </string>
 </resources>

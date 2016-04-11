@@ -1,1 +1,1 @@
-include ':app', ':AndroidSystemUiTraining-master', ':native_ad_api', ':libzxing'
+include ':mydemo', ':AndroidSystemUiTraining-master', ':native_ad_api', ':libzxing', ':qupai', ':Minisdk-release', ':libmap', ':maputil', ':hellomap', ':ggmappi'

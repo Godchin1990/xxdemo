@@ -16,22 +16,6 @@
 
 package com.example.mapdemo;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.GoogleMap.InfoWindowAdapter;
-import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
-import com.google.android.gms.maps.GoogleMap.OnInfoWindowCloseListener;
-import com.google.android.gms.maps.GoogleMap.OnInfoWindowLongClickListener;
-import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
-import com.google.android.gms.maps.GoogleMap.OnMarkerDragListener;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
-import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
-
 import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Build;
@@ -53,6 +37,22 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.GoogleMap.InfoWindowAdapter;
+import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
+import com.google.android.gms.maps.GoogleMap.OnInfoWindowCloseListener;
+import com.google.android.gms.maps.GoogleMap.OnInfoWindowLongClickListener;
+import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
+import com.google.android.gms.maps.GoogleMap.OnMarkerDragListener;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -80,7 +80,9 @@ public class MarkerDemoActivity extends AppCompatActivity implements
 
     private static final LatLng PERTH = new LatLng(-31.952854, 115.857342);
 
-    /** Demonstrates customizing the info window and/or its contents. */
+    /**
+     * Demonstrates customizing the info window and/or its contents.
+     */
     class CustomInfoWindowAdapter implements InfoWindowAdapter {
 
         // These a both viewgroups containing an ImageView with id "badge" and two TextViews with id
@@ -327,7 +329,9 @@ public class MarkerDemoActivity extends AppCompatActivity implements
         return true;
     }
 
-    /** Called when the Clear button is clicked. */
+    /**
+     * Called when the Clear button is clicked.
+     */
     public void onClearMap(View view) {
         if (!checkReady()) {
             return;
@@ -335,7 +339,9 @@ public class MarkerDemoActivity extends AppCompatActivity implements
         mMap.clear();
     }
 
-    /** Called when the Reset button is clicked. */
+    /**
+     * Called when the Reset button is clicked.
+     */
     public void onResetMap(View view) {
         if (!checkReady()) {
             return;
@@ -345,7 +351,9 @@ public class MarkerDemoActivity extends AppCompatActivity implements
         addMarkersToMap();
     }
 
-    /** Called when the Reset button is clicked. */
+    /**
+     * Called when the Reset button is clicked.
+     */
     public void onToggleFlat(View view) {
         if (!checkReady()) {
             return;

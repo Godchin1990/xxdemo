@@ -1,3 +1,12 @@
+/libmap/build
+/hellomap/build
+/ggmappi/build
+/AndroidSystemUiTraining-master/build
+/libzxing/build
+/mydemo/build
+/native_ad_api/build
+/qupai/build
+/maputil/build
 /.idea
 .gradle
 /local.properties

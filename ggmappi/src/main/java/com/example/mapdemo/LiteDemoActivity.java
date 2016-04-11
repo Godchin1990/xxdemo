@@ -17,6 +17,14 @@
 package com.example.mapdemo;
 
 
+import android.annotation.SuppressLint;
+import android.graphics.Color;
+import android.os.Build;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.view.ViewTreeObserver.OnGlobalLayoutListener;
+
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -28,19 +36,11 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolygonOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
-import android.annotation.SuppressLint;
-import android.graphics.Color;
-import android.os.Build;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.view.ViewTreeObserver.OnGlobalLayoutListener;
-
 /**
  * This demo shows some features supported in lite mode.
  * In particular it demonstrates the use of {@link com.google.android.gms.maps.model.Marker}s to
  * launch the Google Maps Mobile application, {@link com.google.android.gms.maps.CameraUpdate}s
- * and {@link com.google.android.gms.maps.model.Polygon}s.
+ * and {@link com.google.android.gms.maps.model.Polygon}s.f
  */
 public class LiteDemoActivity extends AppCompatActivity implements OnMapReadyCallback {
 
