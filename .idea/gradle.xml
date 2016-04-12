@@ -13,12 +13,15 @@
             <option value="$PROJECT_DIR$/Minisdk-release" />
             <option value="$PROJECT_DIR$/ggmappi" />
             <option value="$PROJECT_DIR$/hellomap" />
+            <option value="$PROJECT_DIR$/hxlib" />
             <option value="$PROJECT_DIR$/libmap" />
             <option value="$PROJECT_DIR$/libzxing" />
             <option value="$PROJECT_DIR$/maputil" />
             <option value="$PROJECT_DIR$/mydemo" />
             <option value="$PROJECT_DIR$/native_ad_api" />
             <option value="$PROJECT_DIR$/qupai" />
+            <option value="$PROJECT_DIR$/svg" />
+            <option value="$PROJECT_DIR$/tngou" />
           </set>
         </option>
       </GradleProjectSettings>

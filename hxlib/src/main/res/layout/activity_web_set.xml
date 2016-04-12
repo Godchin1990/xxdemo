@@ -1,0 +1,79 @@
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/set_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+
+        <RelativeLayout
+            android:id="@+id/set_rel_1"
+            android:layout_width="match_parent"
+            android:layout_height="65.5dp"
+            android:layout_below="@+id/set_title"
+            android:background="@drawable/common_bg_white_with_stork_at_bottom_sel"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/set_tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="left|center"
+                android:text="awefajwifjawf"
+                android:textColor="#ff333333"
+                android:textSize="17sp" />
+
+           <!--android.support.v7.widget.SwitchCompat 
+       <de.ankri.views.Switch
+                android:id="@+id/set_seitch_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               /> -->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/set_rel_2"
+            android:layout_width="match_parent"
+            android:layout_height="65.5dp"
+            android:layout_below="@+id/set_rel_1"
+            android:background="@drawable/common_bg_white_with_stork_at_bottom_sel"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/set_tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="left|center"
+                android:text="awefajwifjawf"
+                android:textColor="#ff333333"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/set_rel_3"
+            android:layout_width="match_parent"
+            android:layout_height="65.5dp"
+            android:layout_below="@+id/set_rel_2"
+            android:background="@drawable/common_bg_white_with_stork_at_bottom_sel"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/set_tv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="left|center"
+                android:text="awefajwifjawf"
+                android:textColor="#ff333333"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
