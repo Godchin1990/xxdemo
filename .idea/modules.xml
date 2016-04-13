@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" filepath="$PROJECT_DIR$/AndroidSystemUiTraining-master/AndroidSystemUiTraining-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonPullToRefresh_Demo/CommonPullToRefresh_Demo.iml" filepath="$PROJECT_DIR$/CommonPullToRefresh_Demo/CommonPullToRefresh_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Minisdk-release/Minisdk-release.iml" filepath="$PROJECT_DIR$/Minisdk-release/Minisdk-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cptr/cptr.iml" filepath="$PROJECT_DIR$/cptr/cptr.iml" />
       <module fileurl="file://$PROJECT_DIR$/ggmappi/ggmappi.iml" filepath="$PROJECT_DIR$/ggmappi/ggmappi.iml" />
       <module fileurl="file://$PROJECT_DIR$/hellomap/hellomap.iml" filepath="$PROJECT_DIR$/hellomap/hellomap.iml" />
       <module fileurl="file://$PROJECT_DIR$/hxlib/hxlib.iml" filepath="$PROJECT_DIR$/hxlib/hxlib.iml" />

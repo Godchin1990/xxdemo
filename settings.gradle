@@ -1,1 +1,1 @@
-include ':mydemo', ':AndroidSystemUiTraining-master', ':native_ad_api', ':libzxing', ':qupai', ':Minisdk-release', ':libmap', ':maputil', ':hellomap', ':ggmappi', ':tngou', ':hxlib', ':svg', ':library_okhttputils', ':library_okhttpserver', ':wlantalk'
+include ':mydemo', ':AndroidSystemUiTraining-master', ':native_ad_api', ':libzxing', ':qupai', ':Minisdk-release', ':libmap', ':maputil', ':hellomap', ':ggmappi', ':tngou', ':hxlib', ':svg', ':library_okhttputils', ':library_okhttpserver', ':wlantalk', ':CommonPullToRefresh_Demo', ':cptr'

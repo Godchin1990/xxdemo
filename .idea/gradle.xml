@@ -10,7 +10,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AndroidSystemUiTraining-master" />
+            <option value="$PROJECT_DIR$/CommonPullToRefresh_Demo" />
             <option value="$PROJECT_DIR$/Minisdk-release" />
+            <option value="$PROJECT_DIR$/cptr" />
             <option value="$PROJECT_DIR$/ggmappi" />
             <option value="$PROJECT_DIR$/hellomap" />
             <option value="$PROJECT_DIR$/hxlib" />
