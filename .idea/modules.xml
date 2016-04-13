@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/hellomap/hellomap.iml" filepath="$PROJECT_DIR$/hellomap/hellomap.iml" />
       <module fileurl="file://$PROJECT_DIR$/hxlib/hxlib.iml" filepath="$PROJECT_DIR$/hxlib/hxlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/libmap/libmap.iml" filepath="$PROJECT_DIR$/libmap/libmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_okhttpserver/library_okhttpserver.iml" filepath="$PROJECT_DIR$/library_okhttpserver/library_okhttpserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_okhttputils/library_okhttputils.iml" filepath="$PROJECT_DIR$/library_okhttputils/library_okhttputils.iml" />
       <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/maputil/maputil.iml" filepath="$PROJECT_DIR$/maputil/maputil.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydemo/mydemo.iml" filepath="$PROJECT_DIR$/mydemo/mydemo.iml" />
@@ -15,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/qupai/qupai.iml" filepath="$PROJECT_DIR$/qupai/qupai.iml" />
       <module fileurl="file://$PROJECT_DIR$/svg/svg.iml" filepath="$PROJECT_DIR$/svg/svg.iml" />
       <module fileurl="file://$PROJECT_DIR$/tngou/tngou.iml" filepath="$PROJECT_DIR$/tngou/tngou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wlantalk/wlantalk.iml" filepath="$PROJECT_DIR$/wlantalk/wlantalk.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxdemo.iml" filepath="$PROJECT_DIR$/xxdemo.iml" />
     </modules>
   </component>

@@ -15,6 +15,8 @@
             <option value="$PROJECT_DIR$/hellomap" />
             <option value="$PROJECT_DIR$/hxlib" />
             <option value="$PROJECT_DIR$/libmap" />
+            <option value="$PROJECT_DIR$/library_okhttpserver" />
+            <option value="$PROJECT_DIR$/library_okhttputils" />
             <option value="$PROJECT_DIR$/libzxing" />
             <option value="$PROJECT_DIR$/maputil" />
             <option value="$PROJECT_DIR$/mydemo" />
@@ -22,6 +24,7 @@
             <option value="$PROJECT_DIR$/qupai" />
             <option value="$PROJECT_DIR$/svg" />
             <option value="$PROJECT_DIR$/tngou" />
+            <option value="$PROJECT_DIR$/wlantalk" />
           </set>
         </option>
       </GradleProjectSettings>
