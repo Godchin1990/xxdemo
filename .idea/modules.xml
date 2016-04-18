@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Minisdk-release/Minisdk-release.iml" filepath="$PROJECT_DIR$/Minisdk-release/Minisdk-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/cptr/cptr.iml" filepath="$PROJECT_DIR$/cptr/cptr.iml" />
       <module fileurl="file://$PROJECT_DIR$/ggmappi/ggmappi.iml" filepath="$PROJECT_DIR$/ggmappi/ggmappi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmapmarkerddemo/gmapmarkerddemo.iml" filepath="$PROJECT_DIR$/gmapmarkerddemo/gmapmarkerddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/hellomap/hellomap.iml" filepath="$PROJECT_DIR$/hellomap/hellomap.iml" />
       <module fileurl="file://$PROJECT_DIR$/hxlib/hxlib.iml" filepath="$PROJECT_DIR$/hxlib/hxlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/libmap/libmap.iml" filepath="$PROJECT_DIR$/libmap/libmap.iml" />
